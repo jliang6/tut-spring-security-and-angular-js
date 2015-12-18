@@ -13,7 +13,7 @@ class ResourceApplication {
 	
 	@RequestMapping('/')
 	def home() {
-		[id: UUID.randomUUID().toString(), content: 'Hello World']
+		[id: UUID.randomUUID().toString(), content: 'From Java Server']
 	}
 
     static void main(String[] args) {
